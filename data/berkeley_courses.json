@@ -1,0 +1,77 @@
+{
+  "note": "Illustrative sample catalog for development and testing. Course codes, titles, and unit values follow real UC Berkeley offerings, but ALL section ids, days, and times below are invented examples, not actual Schedule of Classes data. Point --catalog at a real export before using this to plan an actual semester.",
+  "courses": [
+    {
+      "code": "COMPSCI 61A",
+      "title": "The Structure and Interpretation of Computer Programs",
+      "units": 4,
+      "sections": [
+        {"id": "001", "kind": "LEC", "meetings": [{"days": ["M", "W", "F"], "start": "10:00", "end": "11:00"}]},
+        {"id": "002", "kind": "LEC", "meetings": [{"days": ["M", "W", "F"], "start": "14:00", "end": "15:00"}]},
+        {"id": "101", "kind": "DIS", "meetings": [{"days": ["Tu"], "start": "11:00", "end": "12:30"}]},
+        {"id": "102", "kind": "DIS", "meetings": [{"days": ["Th"], "start": "15:30", "end": "17:00"}]},
+        {"id": "103", "kind": "DIS", "meetings": [{"days": ["Tu"], "start": "17:00", "end": "18:30"}]},
+        {"id": "201", "kind": "LAB", "meetings": [{"days": ["Th"], "start": "11:00", "end": "12:30"}]},
+        {"id": "202", "kind": "LAB", "meetings": [{"days": ["F"], "start": "15:00", "end": "16:30"}]}
+      ]
+    },
+    {
+      "code": "DATA C8",
+      "title": "Foundations of Data Science",
+      "units": 4,
+      "sections": [
+        {"id": "001", "kind": "LEC", "meetings": [{"days": ["M", "W", "F"], "start": "11:00", "end": "12:00"}]},
+        {"id": "002", "kind": "LEC", "meetings": [{"days": ["Tu", "Th"], "start": "12:30", "end": "14:00"}]},
+        {"id": "101", "kind": "DIS", "meetings": [{"days": ["Tu"], "start": "14:00", "end": "15:00"}]},
+        {"id": "102", "kind": "DIS", "meetings": [{"days": ["W"], "start": "16:00", "end": "17:00"}]},
+        {"id": "201", "kind": "LAB", "meetings": [{"days": ["F"], "start": "13:00", "end": "15:00"}]}
+      ]
+    },
+    {
+      "code": "MATH 54",
+      "title": "Linear Algebra and Differential Equations",
+      "units": 4,
+      "sections": [
+        {"id": "001", "kind": "LEC", "meetings": [{"days": ["M", "W", "F"], "start": "9:00", "end": "10:00"}]},
+        {"id": "002", "kind": "LEC", "meetings": [{"days": ["M", "W", "F"], "start": "15:00", "end": "16:00"}]},
+        {"id": "101", "kind": "DIS", "meetings": [{"days": ["Tu", "Th"], "start": "8:00", "end": "9:30"}]},
+        {"id": "102", "kind": "DIS", "meetings": [{"days": ["Tu", "Th"], "start": "11:00", "end": "12:30"}]},
+        {"id": "103", "kind": "DIS", "meetings": [{"days": ["Tu", "Th"], "start": "17:00", "end": "18:30"}]}
+      ]
+    },
+    {
+      "code": "COMPSCI 70",
+      "title": "Discrete Mathematics and Probability Theory",
+      "units": 4,
+      "sections": [
+        {"id": "001", "kind": "LEC", "meetings": [{"days": ["Tu", "Th"], "start": "9:30", "end": "11:00"}]},
+        {"id": "002", "kind": "LEC", "meetings": [{"days": ["Tu", "Th"], "start": "15:30", "end": "17:00"}]},
+        {"id": "101", "kind": "DIS", "meetings": [{"days": ["M", "W"], "start": "12:00", "end": "13:00"}]},
+        {"id": "102", "kind": "DIS", "meetings": [{"days": ["M", "W"], "start": "16:00", "end": "17:00"}]}
+      ]
+    },
+    {
+      "code": "EECS 16A",
+      "title": "Designing Information Devices and Systems I",
+      "units": 4,
+      "sections": [
+        {"id": "001", "kind": "LEC", "meetings": [{"days": ["M", "W"], "start": "14:00", "end": "15:30"}]},
+        {"id": "101", "kind": "DIS", "meetings": [{"days": ["F"], "start": "9:00", "end": "11:00"}]},
+        {"id": "102", "kind": "DIS", "meetings": [{"days": ["F"], "start": "12:00", "end": "14:00"}]},
+        {"id": "201", "kind": "LAB", "meetings": [{"days": ["Tu"], "start": "8:00", "end": "11:00"}]},
+        {"id": "202", "kind": "LAB", "meetings": [{"days": ["W"], "start": "17:00", "end": "20:00"}]}
+      ]
+    },
+    {
+      "code": "COMPSCI 61B",
+      "title": "Data Structures",
+      "units": 4,
+      "sections": [
+        {"id": "001", "kind": "LEC", "meetings": [{"days": ["M", "W", "F"], "start": "13:00", "end": "14:00"}]},
+        {"id": "101", "kind": "DIS", "meetings": [{"days": ["Tu"], "start": "10:00", "end": "11:00"}]},
+        {"id": "201", "kind": "LAB", "meetings": [{"days": ["W"], "start": "9:00", "end": "11:00"}]},
+        {"id": "202", "kind": "LAB", "meetings": [{"days": ["Th"], "start": "13:00", "end": "15:00"}]}
+      ]
+    }
+  ]
+    }
